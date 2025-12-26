@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+img {
+  width: 100%;
+}
+
 /* Banner */
 .bg-duck {
   background-image: url(../imgs/banner-image.png);
@@ -14,4 +18,21 @@
 .bg-banner {
   background-image: url(../imgs/banner-bg.png);
   background-size: cover;
+}
+
+/* Description */
+.text-custom {
+  font-size: 0.6rem;
+}
+
+@media (min-width: 992px) {
+  #description-sect img {
+    width: 200px;
+  }
+}
+
+@media (min-width: 992px) {
+  #description-sect .container-custom {
+    width: 50%;
+  }
 }
