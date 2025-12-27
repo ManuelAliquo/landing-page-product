@@ -50,3 +50,20 @@ img {
 #products-sect > div:first-of-type {
   font-size: 0.7rem;
 }
+
+/* FAQs */
+.accordion {
+  --bs-accordion-active-color: black;
+  --bs-accordion-active-bg: transparent;
+}
+
+.accordion button:focus {
+  box-shadow: 0 0 0;
+}
+
+.accordion-item {
+  border: 0;
+}
+.accordion-body {
+  border-top: 1px solid black;
+}
