@@ -36,3 +36,17 @@ img {
     width: 50%;
   }
 }
+
+/* Products */
+.price {
+  color: #04df6c;
+  font-weight: 700;
+}
+
+.valutation {
+  font-size: 0.5rem;
+}
+
+#products-sect > div:first-of-type {
+  font-size: 0.7rem;
+}
