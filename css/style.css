@@ -67,3 +67,15 @@ img {
 .accordion-body {
   border-top: 1px solid black;
 }
+
+/* Benefits */
+
+#benefits-sect .col-6.border-custom {
+  border-left: 2px solid #ebedefae;
+}
+
+@media (min-width: 992px) {
+  #benefits-sect .col-6.border-custom {
+    border-right: 2px solid #ebedefae;
+  }
+}
