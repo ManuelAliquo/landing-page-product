@@ -69,7 +69,6 @@ img {
 }
 
 /* Benefits */
-
 #benefits-sect .col-6.border-custom {
   border-left: 2px solid #ebedefae;
 }
@@ -78,4 +77,31 @@ img {
   #benefits-sect .col-6.border-custom {
     border-right: 2px solid #ebedefae;
   }
+}
+
+/* Footer */
+footer > .container-custom {
+  position: relative;
+  max-width: 80%;
+}
+
+@media (min-width: 992px) {
+  footer > .container-custom {
+    max-width: 50%;
+  }
+}
+
+.send-icon {
+  color: #04df6c;
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+}
+
+.social {
+  color: #04df6c;
+}
+
+address {
+  font-size: 0.7rem;
 }
